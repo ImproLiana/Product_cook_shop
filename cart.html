@@ -39,12 +39,42 @@
     </header>
 
     <main>
-        <section class="catalog">
-            <h1>Выберите блюдо. <br> Продукты соберём мы.</h1>
-            <p id="sec_text_catalog">Уберите то, что уже есть дома, и закажите остальное одним набором.</p>
-            <section id="catalog"></section>
+        <section class="sect_cart">
+            <h1>Корзина</h1>
+            <p id="count_of_products"></p>
+            <section id="cart_products"></section>
+        </section>
+        <section class="sect_result">
+            <h2>Итог</h2>
+            <p>Блюд</p>
+            <p id="num_dish"></p>
+            <p>Продуктов</p>
+            <p id="num_product"></p>
+            <p>Итого к оплате</p>
+            <p id="num_result"></p>
+            <button type="button" id="btn_copy_list">Скопировать список продуктов</button>
+            <button type="button" id="btn_make_order">Оформить заказ</button>
         </section>
     </main>
+    <dialog id="form_make_order">
+        <h1>Оформление заказа</h1>
+        <form id="form_order">
+            <h2>Данные для доставки</h2>
+            <label for="order_name">Имя</label>
+            <input type="text" id="order_name" required placeholder="Иван">
+            <label for="order_surname">Фамилия</label>
+            <input type="text" id="order_surname" required placeholder="Иванов">
+            <label for="order_address">Адрес доставки</label>
+            <input type="text" id="order_address" required placeholder="Город, Улица, Дом, Квартира">
+            <label for="order_number">Контактный номер</label>
+            <input type="tel" id="order_number" required placeholder="+7 900 000-00-00">
+            <button type="submit" id="btn_send_order">Создать заказ</button>
+        </form>
+        <div id="order_info">
+            <h2>Ваш заказ</h2>
+            <section id="order_summary"></section>
+        </div>
+    </dialog>
     <dialog id="add_recipe">
         <h1>Предложить блюдо</h1>
         <p id="sec_text_in_add">Выберите, насколько подробно хотите рассказать.</p>
