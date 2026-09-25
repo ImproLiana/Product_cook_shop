@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buy&Cook</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="buy_cook">Buy&Cook</a>
+            <form class="search">
+                <img class="headers_img" src="images/magnifier.png" alt="поиск">
+                <input type="search" id="search_input" placeholder="Найти блюдо">
+            </form>
+            <button id="cart" type="button">
+                <img class="headers_img" src="images/basket.png" alt="корзина">
+            </button>
+            <button id="list" type="button">
+                <img class="headers_img" src="images/list.png" alt="список">
+            </button>
+            <div class="menu">
+                <button id="cart_dial" type="button">
+                    <img class="headers_img" src="images/basket.png" alt="корзина">
+                    <p>Корзина</p>
+                </button>
+                <button id="star" type="button">
+                    <img class="headers_img" src="images/star.png" alt="звезда"> 
+                    <p>Избранное</p>
+                </button>
+                <!-- <img class="headers_img" src="images/user.png" id="user"> -->
+                <button id="plus" type="button">
+                    <img class="headers_img" src="images/plus.png" alt="плюс">
+                    <p>Предложить блюдо</p>
+                </button>   
+            </div> 
+        </nav> 
+    </header>
+
+    <main>
+        <section class="catalog">
+            <h1>Выберите блюдо. <br> Продукты соберём мы.</h1>
+            <p id="sec_text_catalog">Уберите то, что уже есть дома, и закажите остальное одним набором.</p>
+            <section id="catalog"></section>
+        </section>
+    </main>
+    <dialog id="add_recipe">
+        <h2>Предложить блюдо</h2>
+        <p id="sec_text_in_add">Выберите, насколько подробно хотите рассказать.</p>
+        <button type="button" id="idea_recipe">Идея</button>
+        <button type="button" id="only_rec_recipe">Рецепт</button>
+        <button type="button" id="full_dish_recipe">Полное блюдо</button>
+        <form class="idea">
+            <label for="idea_text">Опишите вашу идею блюда</label>
+            <textarea id="idea_text" placeholder="Например: хочу набор для домашней шаурмы" required></textarea>
+            <button type="submit" id="btn_send_idea">Отправить идею</button>
+        </form>
+        <form class="only_rec">
+            <label for="only_rec_name">Название блюда *</label>
+            <input id="only_rec_name" type="text" placeholder="Например, Том Ям" required>
+            <label for="only_rec_rec">Рецепт *</label>
+            <textarea id="only_rec_rec" placeholder="Опишите шаги приготовления" required></textarea>
+            <label for="only_rec_list">Список продуктов — необязательно</label>
+            <textarea id="only_rec_list" placeholder="Одна строка - один продукт"></textarea>
+            <button type="submit" id="btn_send_only_rec">Предложить рецепт</button>
+        </form>
+        <form class="full_dish">
+            <label for="full_dish_img">Изображение блюда *</label>
+            <input id="full_dish_img" type="file" accept="image/*" required>
+            <label for="full_dish_name">Название блюда *</label>
+            <input id="full_dish_name" type="text" placeholder="Например, Том Ям" required>
+            <label for="full_dish_rec">Рецепт *</label>
+            <textarea id="full_dish_rec" placeholder="Опишите шаги приготовления" required></textarea>
+            <label for="full_dish_list">Список продуктов *</label>
+            <textarea id="full_dish_list" placeholder="Лапша - 300 г Говядина - 400 г" required></textarea>
+            <label for="full_dish_num">Количество порций</label>
+            <input id="full_dish_num" type="number" value="2" min="1" step="1">
+            <label for="full_dish_cost">Примерная стоимость, ₽</label>
+            <input id="full_dish_cost" type="number" placeholder="700" min="0">
+            <button type="submit" id="btn_send_full_dish">Добавить блюдо</button>
+        </form>
+    </dialog>
+    <script src="script.js"></script>   
+</body>
+</html>
