@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Buy&Cook</title>
 </head>
 <body>
@@ -11,8 +13,8 @@
         <nav>
             <a href="#" id="buy_cook">Buy&Cook</a>
             <form class="search">
-                <img class="headers_img" src="images/magnifier.png" alt="поиск">
                 <input type="search" id="search_input" placeholder="Найти блюдо">
+                <img class="headers_img" src="images/magnifier.png" alt="поиск">
             </form>
             <button id="cart" type="button">
                 <img class="headers_img" src="images/basket.png" alt="корзина">
@@ -39,22 +41,24 @@
     </header>
 
     <main>
-        <section class="sect_cart">
-            <h1>Корзина</h1>
-            <p id="count_of_products"></p>
-            <section id="cart_products"></section>
-        </section>
-        <section class="sect_result">
-            <h2>Итог</h2>
-            <p>Блюд</p>
-            <p id="num_dish"></p>
-            <p>Продуктов</p>
-            <p id="num_product"></p>
-            <p>Итого к оплате</p>
-            <p id="num_result"></p>
-            <button type="button" id="btn_copy_list">Скопировать список продуктов</button>
-            <button type="button" id="btn_make_order">Оформить заказ</button>
-        </section>
+        <div class="div_cart">
+            <section class="sect_cart">
+                <h1>Корзина</h1>
+                <p id="count_of_products"></p>
+                <section id="cart_products"></section>
+            </section>
+            <section class="sect_result">
+                <h2>Итог</h2>
+                <p>Блюд</p>
+                <p id="num_dish"></p>
+                <p>Продуктов</p>
+                <p id="num_product"></p>
+                <p>Итого к оплате</p>
+                <p id="num_result"></p>
+                <button type="button" id="btn_copy_list">Скопировать список продуктов</button>
+                <button type="button" id="btn_make_order">Оформить заказ</button>
+            </section>
+        </div>
     </main>
     <dialog id="form_make_order">
         <h1>Оформление заказа</h1>
