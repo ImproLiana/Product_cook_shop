@@ -112,12 +112,17 @@ h1 {
 }
 
 main {
-    padding: 45px 35px 80px;
+    padding: 45px 100px 80px;
+}   
 
+.catalog_main {
+    display: block;
+}
+
+.cart_main {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 370px;
     gap: 32px;
-
     align-items: start;
 }
 
@@ -217,7 +222,7 @@ header {
     background-color: #f1f5ee;
 }
 
-#btn_make_order {
+#btn_make_order, .add_cart_button {
     grid-column: 1 / -1;
 
     background-color: #9BE968;
@@ -230,7 +235,96 @@ header {
     font-weight: 800;
 }
 
-#btn_make_order:hover {
+#btn_make_order:hover, .add_cart_button:hover {
     background-color: #8ddd5c;
 }
 
+#catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.recipe_card {
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: rgba(14, 15, 12, 0.06) 0px 0px 0px 1px;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.recipe_card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.recipe_image {
+    height: 220px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+
+.favorite_button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    width: 42px;
+    height: 42px;
+
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.favorite_star {
+    width: 22px;
+    height: 22px;
+}
+
+.recipe_info {
+    padding: 20px;
+}
+
+.recipe_meta{
+    font-size: 13px;
+    color: rgb(106, 108, 106);
+}
+
+.recipe_photo {
+    width: 93%;
+    height: 93%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.recipe_price_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recipe_button {
+    border: 1px solid rgb(22, 51, 0);
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 999px;
+}
+
+.add_cart_button {
+    width: 100%;
+    padding: 10px 15px;
+    color: rgb(22, 51, 0);
+    font-size: 15px;
+    font-weight: 700;
+}
