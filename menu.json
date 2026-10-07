@@ -3922,85 +3922,86 @@
       "image": "images/dishes/48_gorohovyy_sup_s_myasom.jpg"
     },
     {
-      "id": 49,
-      "name": "Суп с фрикадельками",
-      "portions": 2,
-      "difficulty": "Легко",
-      "time": {
-        "min": 40,
-        "max": 45
-      },
-      "recipe": [
-        "1. Смешайте фарш с половиной мелко нарезанного лука, посолите и сформируйте небольшие фрикадельки.",
-        "2. Доведите бульон до кипения, добавьте нарезанный картофель. Если используете рис, промойте и добавьте его на этом этапе.",
-        "3. Обжарьте оставшийся лук с морковью и добавьте в суп вместе с фрикадельками.",
-        "4. Варите на небольшом огне около 15 минут до полной готовности фрикаделек. Если используете мелкую пасту, добавьте её за время, указанное на упаковке, до конца варки.",
-        "5. Приправьте по вкусу и дайте супу постоять под крышкой несколько минут."
-      ],
-      "ingredients": [
+    "id": 49,
+    "name": "Овсяная каша с бананом",
+    "portions": 2,
+    "difficulty": "Очень легко",
+    "time": {
+        "min": 10,
+        "max": 15
+    },
+    "recipe": [
+        "1. Налейте молоко в небольшую кастрюлю и доведите почти до кипения на среднем огне.",
+        "2. Добавьте овсяные хлопья, уменьшите огонь и варите 5–7 минут, периодически помешивая.",
+        "3. Один банан разомните вилкой и вмешайте в кашу — он сделает её слаще и кремовее.",
+        "4. Добавьте сливочное масло и перемешайте до однородности.",
+        "5. Разложите кашу по тарелкам. Второй банан нарежьте кружочками и выложите сверху.",
+        "6. По желанию добавьте мёд и немного корицы."
+    ],
+    "ingredients": [
         {
-          "name": "фарш",
-          "amount": "300 г",
-          "price_basis": {
+        "name": "овсяные хлопья",
+        "amount": "120 г",
+        "price_basis": {
             "unit": "кг",
-            "price_rub": 650
-          },
-          "estimated_cost_rub": 195,
-          "pricing_key": "фарш"
+            "price_rub": 160
+        },
+        "estimated_cost_rub": 19,
+        "pricing_key": "овсяные хлопья"
         },
         {
-          "name": "картофель",
-          "amount": "400 г",
-          "price_basis": {
-            "unit": "кг",
-            "price_rub": 50
-          },
-          "estimated_cost_rub": 20,
-          "pricing_key": "картофель"
-        },
-        {
-          "name": "морковь",
-          "amount": "1 шт.",
-          "price_basis": {
-            "unit": "шт",
-            "price_rub": 18
-          },
-          "estimated_cost_rub": 18,
-          "pricing_key": "морковь"
-        },
-        {
-          "name": "лук",
-          "amount": "1 шт.",
-          "price_basis": {
-            "unit": "шт",
-            "price_rub": 15
-          },
-          "estimated_cost_rub": 15,
-          "pricing_key": "лук"
-        },
-        {
-          "name": "мелкая паста/рис",
-          "amount": "80 г",
-          "price_basis": {
-            "unit": "кг",
-            "price_rub": 150
-          },
-          "estimated_cost_rub": 12,
-          "pricing_key": "мелкая паста/рис"
-        },
-        {
-          "name": "бульон",
-          "amount": "1.2 л",
-          "price_basis": {
+        "name": "молоко",
+        "amount": "400 мл",
+        "price_basis": {
             "unit": "л",
-            "price_rub": 120
-          },
-          "estimated_cost_rub": 144,
-          "pricing_key": "бульон"
+            "price_rub": 100
+        },
+        "estimated_cost_rub": 40,
+        "pricing_key": "молоко"
+        },
+        {
+        "name": "банан",
+        "amount": "2 шт.",
+        "price_basis": {
+            "unit": "шт",
+            "price_rub": 35
+        },
+        "estimated_cost_rub": 70,
+        "pricing_key": "банан"
+        },
+        {
+        "name": "сливочное масло",
+        "amount": "20 г",
+        "price_basis": {
+            "unit": "кг",
+            "price_rub": 950
+        },
+        "estimated_cost_rub": 19,
+        "pricing_key": "сливочное масло"
+        },
+        {
+        "name": "мёд",
+        "amount": "2 ч. л.",
+        "price_basis": {
+            "unit": "ч. л.",
+            "price_rub": 8
+        },
+        "estimated_cost_rub": 16,
+        "pricing_key": "мёд"
+        },
+        {
+        "name": "корица",
+        "amount": "по вкусу",
+        "price_basis": {
+            "unit": "порция",
+            "price_rub": 3
+        },
+        "estimated_cost_rub": 3,
+        "pricing_key": "корица"
         }
-      ],
-      "total_price": 404,
-      "image": "images/dishes/49_sup_s_frikadelkami.jpg"
+    ],
+    "total_price": 167,
+    "image": "images/dishes/49_ovsyanaya_kasha_s_bananom.jpg"
     },
     {
       "id": 50,

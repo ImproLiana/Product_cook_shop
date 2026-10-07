@@ -127,6 +127,20 @@ function saveCart() {
     updateSummary()
     return saved
 }
+
+function removeCartItemIfEmpty(id) {
+    const item = getCartItem(id)
+    if (!item || selectedCount(item) > 0) return false
+    cart = cart.filter(product => String(product.id) !== String(id))
+    saveCart()
+    if (cartProducts) {
+        renderCart()
+    }
+    showToast("Блюдо удалено из корзины")
+    return true
+}
+
+
 function makeDialog(id, titleId) {
     const dialog = makeElement("dialog", "app_dialog")
     dialog.id = id
@@ -426,6 +440,9 @@ function openProducts(dish) {
         if (cartProducts) renderCart()
     }
     update()
+    productsDialog.addEventListener("close", () => {
+        removeCartItemIfEmpty(dish.id)
+    }, { once: true })
     openDialog(productsDialog)
 }
 
@@ -446,8 +463,12 @@ function renderCart() {
         panel.id = "ingredients_" + item.id
         panel.hidden = !expanded.has(String(item.id))
         const toggle = makeButton("Ингредиенты", "ingredients_button", () => {
+            const isClosing = !panel.hidden
             panel.hidden = !panel.hidden
             toggle.setAttribute("aria-expanded", !panel.hidden)
+            if (isClosing) {
+                removeCartItemIfEmpty(item.id)
+            }
         })
         toggle.dataset.id = item.id
         toggle.setAttribute("aria-expanded", !panel.hidden)
