@@ -830,7 +830,7 @@ async function loadMenu() {
     const container = catalog || cartProducts
     container.replaceChildren(makeElement("p", "loading_message", "Загружаем блюда…"))
     try {
-        const response = await fetch("menu.json")
+        const response = await fetch("data/menu.json")
         if (!response.ok) throw new Error("Menu unavailable")
         const data = await response.json()
         if (!Array.isArray(data.dishes)) throw new Error("Invalid menu")
