@@ -31,11 +31,14 @@
                     <img class="headers_img" src="images/star.png" alt="звезда"> 
                     <p>Избранное</p>
                 </button>
-                <!-- <img class="headers_img" src="images/user.png" id="user"> -->
                 <button id="plus" type="button">
                     <img class="headers_img" src="images/plus.png" alt="плюс">
                     <p>Предложить блюдо</p>
-                </button>   
+                </button>     
+                <button id="ideas" type="button">
+                    <img class="headers_img" src="images/list.png" alt="идеи">
+                    <p>Идеи</p>
+                </button> 
             </div> 
         </nav> 
     </header>
@@ -53,12 +56,12 @@
         <button type="button" id="idea_recipe">Идея</button>
         <button type="button" id="only_rec_recipe">Рецепт</button>
         <button type="button" id="full_dish_recipe">Полное блюдо</button>
-        <form class="idea">
+        <form class="idea" novalidate>
             <label for="idea_text">Опишите вашу идею блюда</label>
             <textarea id="idea_text" placeholder="Например: хочу набор для домашней шаурмы" required></textarea>
             <button type="submit" id="btn_send_idea">Отправить идею</button>
         </form>
-        <form class="only_rec">
+        <form class="only_rec" novalidate>
             <label for="only_rec_name">Название блюда *</label>
             <input id="only_rec_name" type="text" placeholder="Например, Том Ям" required>
             <label for="only_rec_rec">Рецепт *</label>
@@ -67,7 +70,7 @@
             <textarea id="only_rec_list" placeholder="Одна строка - один продукт"></textarea>
             <button type="submit" id="btn_send_only_rec">Предложить рецепт</button>
         </form>
-        <form class="full_dish">
+        <form class="full_dish" novalidate>
             <label for="full_dish_img">Изображение блюда *</label>
             <input id="full_dish_img" type="file" accept="image/*" required>
             <label for="full_dish_name">Название блюда *</label>
@@ -77,11 +80,15 @@
             <label for="full_dish_list">Список продуктов *</label>
             <textarea id="full_dish_list" placeholder="Лапша - 300 г Говядина - 400 г" required></textarea>
             <label for="full_dish_num">Количество порций</label>
-            <input id="full_dish_num" type="number" value="2" min="1" step="1">
+            <input id="full_dish_num" type="number" value="2" min="1" max="20" step="1">
             <label for="full_dish_cost">Примерная стоимость, ₽</label>
             <input id="full_dish_cost" type="number" placeholder="700" min="0">
             <button type="submit" id="btn_send_full_dish">Добавить блюдо</button>
         </form>
+    </dialog>
+    <dialog id="ideas_dialog">
+        <h1>Ваши идеи</h1>
+        <section id="ideas_list"></section>
     </dialog>
     <script src="script.js"></script>   
 </body>

@@ -1,0 +1,5648 @@
+{
+  "meta": {
+    "title": "Buy&Cook menu data",
+    "default_portions": 2,
+    "dish_count": 67,
+    "base_home_items_not_included": [
+      "соль",
+      "перец",
+      "базовое растительное масло"
+    ],
+    "price_anchors_rub": {
+      "картофель_за_кг": 45.59,
+      "спагетти_магнит_500г": 36.99,
+      "макароны_makfa_500г": 72.99,
+      "шампиньоны_400г": "≈130–180",
+      "яйца_10шт": "≈76–88",
+      "говяжий_фарш_за_кг": 698.99,
+      "пармезан_за_кг": 1099.9,
+      "моцарелла_200г": 219.99,
+      "сливочное_масло_180г": 142.89,
+      "рис_900г": 139.99,
+      "мука_2кг": 54.99,
+      "сметана_300г": "≈75–96",
+      "филе_индейки_500г": 379.99,
+      "креветки_очищенные_300г": 419.99,
+      "кальмар_400г": 445
+    }
+  },
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Паста с песто, грибами и сливками",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Отварите пасту по инструкции на упаковке, оставив немного воды от варки.",
+        "2. Нарежьте шампиньоны, обжарьте до испарения жидкости. Добавьте измельчённый чеснок и готовьте ещё минуту.",
+        "3. Влейте сливки и прогрейте на небольшом огне 2–3 минуты. Вмешайте песто.",
+        "4. Переложите пасту в соус, добавьте пармезан и при необходимости немного воды от варки. Перемешайте и подавайте."
+      ],
+      "ingredients": [
+        {
+          "name": "паста",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "паста"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 100,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сливки 20%",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 117,
+          "pricing_key": "сливки 20%"
+        },
+        {
+          "name": "песто",
+          "amount": "3-4 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 32
+          },
+          "estimated_cost_rub": 112,
+          "pricing_key": "песто"
+        },
+        {
+          "name": "пармезан",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 427,
+      "image": "images/dishes/01_pasta_s_pesto_gribami_i_slivkami.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Паста с курицей и песто",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Отварите пасту, сохранив немного воды от варки.",
+        "2. Нарежьте куриное филе небольшими кусочками и обжарьте до полной готовности. Добавьте измельчённый чеснок.",
+        "3. Влейте сливки, прогрейте 2–3 минуты на слабом огне и вмешайте песто.",
+        "4. Добавьте пасту и тёртый пармезан. Разбавьте соус водой от пасты до нужной густоты и подавайте."
+      ],
+      "ingredients": [
+        {
+          "name": "паста",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "паста"
+        },
+        {
+          "name": "куриное филе",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 165,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "песто",
+          "amount": "3-4 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 32
+          },
+          "estimated_cost_rub": 112,
+          "pricing_key": "песто"
+        },
+        {
+          "name": "сливки",
+          "amount": "120 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 72,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 428,
+      "image": "images/dishes/02_pasta_s_kuricey_i_pesto.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Сливочная паста с грибами и чесноком",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Отварите пасту по инструкции, оставив немного воды от варки.",
+        "2. Обжарьте мелко нарезанный лук до мягкости. Добавьте нарезанные шампиньоны и готовьте, пока не испарится жидкость.",
+        "3. Добавьте измельчённый чеснок, через минуту влейте сливки. Прогрейте на слабом огне 3–4 минуты.",
+        "4. Смешайте пасту с соусом и пармезаном. Если соус густой, добавьте немного воды от варки."
+      ],
+      "ingredients": [
+        {
+          "name": "паста",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "паста"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сливки",
+          "amount": "200 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "чеснок",
+          "amount": "3 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "пармезан",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        }
+      ],
+      "total_price": 361,
+      "image": "images/dishes/03_slivochnaya_pasta_s_gribami_i_chesnokom.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Паста 4 сыра",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 20,
+        "max": 25
+      },
+      "recipe": [
+        "1. Отварите пасту до al dente, сохранив немного воды от варки.",
+        "2. Натрите гауду или чеддер и пармезан. Моцареллу и дорблю нарежьте небольшими кусочками.",
+        "3. На слабом огне подогрейте сливки. Постепенно добавляйте все сыры и перемешивайте до однородного соуса, не доводя до бурного кипения.",
+        "4. Переложите пасту в соус, перемешайте и при необходимости добавьте немного воды от варки. Подавайте сразу."
+      ],
+      "ingredients": [
+        {
+          "name": "паста",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "паста"
+        },
+        {
+          "name": "сливки",
+          "amount": "200 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "моцарелла",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 88,
+          "pricing_key": "моцарелла"
+        },
+        {
+          "name": "дорблю",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1900
+          },
+          "estimated_cost_rub": 76,
+          "pricing_key": "дорблю"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "гауда/чеддер",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 900
+          },
+          "estimated_cost_rub": 54,
+          "pricing_key": "гауда/чеддер"
+        }
+      ],
+      "total_price": 409,
+      "image": "images/dishes/04_pasta_4_syra.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Болоньезе с пармезаном",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 55
+      },
+      "recipe": [
+        "1. Мелко нарежьте лук и морковь, обжарьте до мягкости.",
+        "2. Добавьте фарш и обжаривайте, разбивая комочки, пока мясо не изменит цвет.",
+        "3. Влейте протёртые томаты, приправьте и тушите на слабом огне 25–30 минут. При необходимости добавьте немного воды.",
+        "4. Отварите спагетти по инструкции и смешайте с соусом.",
+        "5. Подавайте с тёртым пармезаном."
+      ],
+      "ingredients": [
+        {
+          "name": "спагетти",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 130
+          },
+          "estimated_cost_rub": 23,
+          "pricing_key": "спагетти"
+        },
+        {
+          "name": "фарш говяжий/смешанный",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 680
+          },
+          "estimated_cost_rub": 204,
+          "pricing_key": "фарш говяжий/смешанный"
+        },
+        {
+          "name": "томаты протертые",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 260
+          },
+          "estimated_cost_rub": 78,
+          "pricing_key": "томаты протертые"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        }
+      ],
+      "total_price": 382,
+      "image": "images/dishes/05_boloneze_s_parmezanom.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Карбонара без бекона — с индейкой",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Отварите спагетти, оставив около половины стакана воды от варки.",
+        "2. Нарежьте индейку небольшими кусочками и обжарьте до полной готовности.",
+        "3. В миске смешайте два яйца, один желток, сливки и большую часть мелко натёртого пармезана.",
+        "4. Добавьте спагетти к индейке и снимите сковороду с огня. Влейте яичную смесь и быстро перемешайте, понемногу добавляя горячую воду от пасты до кремового соуса.",
+        "5. Подавайте сразу с оставшимся пармезаном и перцем."
+      ],
+      "ingredients": [
+        {
+          "name": "спагетти",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 130
+          },
+          "estimated_cost_rub": 23,
+          "pricing_key": "спагетти"
+        },
+        {
+          "name": "филе индейки",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 760
+          },
+          "estimated_cost_rub": 190,
+          "pricing_key": "филе индейки"
+        },
+        {
+          "name": "яйца",
+          "amount": "2 шт. + 1 желток",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "пармезан",
+          "amount": "70 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 77,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "сливки",
+          "amount": "80 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 48,
+          "pricing_key": "сливки"
+        }
+      ],
+      "total_price": 365,
+      "image": "images/dishes/06_karbonara_bez_bekona_s_indeykoy.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Жюльен с грибами и курицей",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Нарежьте курицу небольшими кусочками, шампиньоны — пластинками, лук — мелкими кубиками.",
+        "2. Обжарьте лук, затем курицу до полной готовности. Добавьте грибы и выпарите жидкость.",
+        "3. Посыпьте мукой, перемешайте и прогрейте минуту. Добавьте сливки или сметану и тушите 3–4 минуты до загустения.",
+        "4. Разложите по небольшим формам, посыпьте сыром и запекайте при 190 °C 10–15 минут до золотистой корочки."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 138,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сливки/сметана",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 420
+          },
+          "estimated_cost_rub": 76,
+          "pricing_key": "сливки/сметана"
+        },
+        {
+          "name": "сыр",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 102,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "мука",
+          "amount": "1 ч. л.",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 0,
+          "pricing_key": "мука"
+        }
+      ],
+      "total_price": 451,
+      "image": "images/dishes/07_zhyulen_s_gribami_i_kuricey.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Картофельная запеканка с грибами, сыром и сливками",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 60,
+        "max": 70
+      },
+      "recipe": [
+        "1. Разогрейте духовку до 180 °C. Нарежьте картофель тонкими ломтиками.",
+        "2. Обжарьте лук и шампиньоны до испарения жидкости.",
+        "3. Смешайте сливки с измельчённым чесноком, солью, перцем и половиной сыра.",
+        "4. Выложите картофель и грибы слоями, залейте сливочной смесью. Накройте фольгой и запекайте 40–50 минут до мягкости картофеля.",
+        "5. Снимите фольгу, добавьте оставшийся сыр и подрумяньте ещё 10 минут."
+      ],
+      "ingredients": [
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 140,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сливки",
+          "amount": "250 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 150,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "сыр",
+          "amount": "160 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 136,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 492,
+      "image": "images/dishes/08_kartofelnaya_zapekanka_s_gribami_syrom_i_slivkami.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Запеканка с индейкой, картошкой и сыром",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 60,
+        "max": 70
+      },
+      "recipe": [
+        "1. Разогрейте духовку до 180 °C. Картофель нарежьте тонкими ломтиками, индейку — небольшими кусочками.",
+        "2. Обжарьте лук и индейку 7–10 минут, помешивая.",
+        "3. Смешайте сливки с чесноком и приправами. В форму выложите картофель, индейку с луком и половину сыра.",
+        "4. Залейте сливками, накройте фольгой и запекайте около 40 минут. Проверьте мягкость картофеля и готовность индейки.",
+        "5. Посыпьте оставшимся сыром и запекайте без фольги ещё 10–15 минут."
+      ],
+      "ingredients": [
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "индейка",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 720
+          },
+          "estimated_cost_rub": 252,
+          "pricing_key": "индейка"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "сыр",
+          "amount": "160 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 136,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 554,
+      "image": "images/dishes/09_zapekanka_s_indeykoy_kartoshkoy_i_syrom.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Лазанья болоньезе",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 75,
+        "max": 90
+      },
+      "recipe": [
+        "1. Обжарьте фарш, разбивая комочки. Добавьте протёртые томаты и тушите 20–25 минут.",
+        "2. Растопите сливочное масло, вмешайте муку и прогрейте минуту. Постепенно влейте молоко, постоянно размешивая, и варите до загустения.",
+        "3. Подготовьте листы лазаньи по инструкции на упаковке. В форме чередуйте бешамель, листы, мясной соус и моцареллу.",
+        "4. Верх покройте бешамелем и пармезаном. Запекайте при 180 °C около 35–45 минут; если верх быстро темнеет, прикройте фольгой.",
+        "5. Дайте лазанье постоять 10 минут перед нарезкой."
+      ],
+      "ingredients": [
+        {
+          "name": "листы лазаньи",
+          "amount": "8-10 шт.",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 620
+          },
+          "estimated_cost_rub": 140,
+          "pricing_key": "листы лазаньи"
+        },
+        {
+          "name": "фарш",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 227,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "томаты протертые",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 260
+          },
+          "estimated_cost_rub": 91,
+          "pricing_key": "томаты протертые"
+        },
+        {
+          "name": "молоко",
+          "amount": "500 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 60,
+          "pricing_key": "молоко"
+        },
+        {
+          "name": "мука",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 2,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "моцарелла",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 165,
+          "pricing_key": "моцарелла"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        }
+      ],
+      "total_price": 761,
+      "image": "images/dishes/10_lazanya_boloneze.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Лазанья с грибами в сливочном соусе",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 70,
+        "max": 80
+      },
+      "recipe": [
+        "1. Обжарьте нарезанный лук и шампиньоны до испарения жидкости.",
+        "2. Посыпьте грибы мукой и перемешайте. Постепенно влейте молоко и сливки, помешивая, и прогрейте до загустения.",
+        "3. Подготовьте листы лазаньи по инструкции на упаковке. Чередуйте листы, грибной соус и сыр в форме; сверху оставьте соус и сыр.",
+        "4. Запекайте при 180 °C 35–45 минут до мягкости листов и румяной корочки. Дайте постоять 10 минут."
+      ],
+      "ingredients": [
+        {
+          "name": "листы лазаньи",
+          "amount": "8-10 шт.",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 620
+          },
+          "estimated_cost_rub": 140,
+          "pricing_key": "листы лазаньи"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 180,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сливки",
+          "amount": "250 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 150,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "молоко",
+          "amount": "350 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 42,
+          "pricing_key": "молоко"
+        },
+        {
+          "name": "сыр",
+          "amount": "200 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 170,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "мука",
+          "amount": "30 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 2,
+          "pricing_key": "мука"
+        }
+      ],
+      "total_price": 699,
+      "image": "images/dishes/11_lazanya_s_gribami_v_slivochnom_souse.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Драники со сметаной",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 30,
+        "max": 35
+      },
+      "recipe": [
+        "1. Натрите картофель и половину луковицы на мелкой тёрке. Отожмите лишнюю жидкость.",
+        "2. Добавьте яйцо, муку, соль и перец, хорошо перемешайте.",
+        "3. Выкладывайте массу тонкими небольшими лепёшками на сковороду с разогретым маслом.",
+        "4. Жарьте на среднем огне по 3–5 минут с каждой стороны, до румяной корочки и мягкости внутри. Подавайте со сметаной."
+      ],
+      "ingredients": [
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "яйцо",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 9,
+          "pricing_key": "яйцо"
+        },
+        {
+          "name": "лук",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "мука",
+          "amount": "2 ст. л.",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 2,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "сметана",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "сметана"
+        }
+      ],
+      "total_price": 99,
+      "image": "images/dishes/12_draniki_so_smetanoy.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Драники с грибным сливочным соусом",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Натрите картофель и отожмите лишнюю жидкость. Смешайте с яйцом, мукой, солью и перцем.",
+        "2. Обжарьте мелко нарезанный лук и шампиньоны до испарения жидкости. Добавьте чеснок и сливки, прогрейте 3–5 минут.",
+        "3. На другой сковороде выкладывайте картофельную массу тонкими лепёшками и жарьте по 3–5 минут с каждой стороны до готовности.",
+        "4. Подавайте горячие драники с грибным соусом."
+      ],
+      "ingredients": [
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "яйцо",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 9,
+          "pricing_key": "яйцо"
+        },
+        {
+          "name": "мука",
+          "amount": "2 ст. л.",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 2,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 100,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 277,
+      "image": "images/dishes/13_draniki_s_gribnym_slivochnym_sousom.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Картошка с грибами и яичницей",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 35,
+        "max": 40
+      },
+      "recipe": [
+        "1. Нарежьте картофель небольшими кубиками, грибы — пластинками, лук — полукольцами.",
+        "2. Обжарьте картофель на среднем огне до румяной корочки и мягкости, периодически переворачивая.",
+        "3. Отдельно обжарьте лук с грибами, затем смешайте с картофелем.",
+        "4. Сделайте четыре углубления, разбейте в них яйца и накройте крышкой. Готовьте до схватывания белков.",
+        "5. Посыпьте сыром, дайте ему расплавиться и подавайте."
+      ],
+      "ingredients": [
+        {
+          "name": "картофель",
+          "amount": "600 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "яйца",
+          "amount": "4 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 36,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "сыр",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 51,
+          "pricing_key": "сыр"
+        }
+      ],
+      "total_price": 252,
+      "image": "images/dishes/14_kartoshka_s_gribami_i_yaichnicey.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Шакшука с сыром",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Обжарьте лук и болгарский перец до мягкости.",
+        "2. Добавьте чеснок и протёртые томаты, уварите соус несколько минут.",
+        "3. Сделайте в соусе углубления и аккуратно разбейте яйца.",
+        "4. Накройте и готовьте до схватывания белка при мягком желтке.",
+        "5. Посыпьте сыром и подавайте горячей."
+      ],
+      "ingredients": [
+        {
+          "name": "яйца",
+          "amount": "4 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 36,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "томаты протертые",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 260
+          },
+          "estimated_cost_rub": 91,
+          "pricing_key": "томаты протертые"
+        },
+        {
+          "name": "болгарский перец",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 90
+          },
+          "estimated_cost_rub": 90,
+          "pricing_key": "болгарский перец"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "фета/моцарелла",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1050
+          },
+          "estimated_cost_rub": 105,
+          "pricing_key": "фета/моцарелла"
+        }
+      ],
+      "total_price": 353,
+      "image": "images/dishes/15_shakshuka_s_syrom.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Скрэмбл, жареная картошка и сыр",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 30,
+        "max": 35
+      },
+      "recipe": [
+        "1. Картофель нарежьте и обжарьте до золотистой корочки и мягкости.",
+        "2. Яйца слегка взбейте со сливками или молоком.",
+        "3. На слабом огне готовьте яйца, постоянно перемешивая до нежной кремовой текстуры.",
+        "4. Добавьте сыр и дайте ему слегка расплавиться.",
+        "5. Подавайте скрэмбл вместе с горячей картошкой."
+      ],
+      "ingredients": [
+        {
+          "name": "яйца",
+          "amount": "5 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "картофель",
+          "amount": "600 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "30 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "сыр",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 85,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "сливки/молоко",
+          "amount": "50 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 350
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "сливки/молоко"
+        }
+      ],
+      "total_price": 202,
+      "image": "images/dishes/16_skrembl_zharenaya_kartoshka_i_syr.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Блины с курицей, грибами и сыром",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 60
+      },
+      "recipe": [
+        "1. Обжарьте мелко нарезанный лук с кусочками курицы до полной готовности.",
+        "2. Добавьте нарезанные шампиньоны, выпарите жидкость и влейте сливки. Прогрейте до загустения.",
+        "3. Вмешайте тёртый сыр. Разложите начинку по готовым блинам и сверните конвертиками.",
+        "4. Подрумяньте блины на сковороде с двух сторон и подавайте горячими."
+      ],
+      "ingredients": [
+        {
+          "name": "готовые блины",
+          "amount": "8 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 25
+          },
+          "estimated_cost_rub": 200,
+          "pricing_key": "готовые блины"
+        },
+        {
+          "name": "курица",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 500
+          },
+          "estimated_cost_rub": 125,
+          "pricing_key": "курица"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 100,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сыр",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 102,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "сливки",
+          "amount": "100 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 60,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "лук",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "лук"
+        }
+      ],
+      "total_price": 595,
+      "image": "images/dishes/17_bliny_s_kuricey_gribami_i_syrom.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Блины с яйцом и сыром",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 30,
+        "max": 45
+      },
+      "recipe": [
+        "1. Отварите яйца вкрутую, остудите и мелко нарежьте.",
+        "2. Смешайте яйца с тёртым сыром, рубленой зеленью и половиной сметаны.",
+        "3. Разложите начинку по готовым блинам и сверните конвертиками.",
+        "4. Подрумяньте блины на сковороде с двух сторон. Подавайте с оставшейся сметаной."
+      ],
+      "ingredients": [
+        {
+          "name": "готовые блины",
+          "amount": "8 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 25
+          },
+          "estimated_cost_rub": 200,
+          "pricing_key": "готовые блины"
+        },
+        {
+          "name": "яйца",
+          "amount": "4 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 36,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "сыр",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 128,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "сметана",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "зелень",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "пучок",
+            "price_rub": 90
+          },
+          "estimated_cost_rub": 22,
+          "pricing_key": "зелень"
+        }
+      ],
+      "total_price": 416,
+      "image": "images/dishes/18_bliny_s_yaycom_i_syrom.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Паста с креветками в сливочно-чесночном соусе",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Отварите пасту, оставив немного воды от варки.",
+        "2. Разморозьте креветки при необходимости и обсушите. Сырые креветки обжарьте с измельчённым чесноком по 1–2 минуты с каждой стороны до непрозрачности.",
+        "3. Влейте сливки и прогрейте на слабом огне. Если креветки уже варёные, добавьте их сейчас и только прогрейте.",
+        "4. Вмешайте пасту и пармезан, при необходимости добавьте воду от варки. Снимите с огня и добавьте немного лимонного сока."
+      ],
+      "ingredients": [
+        {
+          "name": "паста",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "паста"
+        },
+        {
+          "name": "очищенные креветки",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1450
+          },
+          "estimated_cost_rub": 435,
+          "pricing_key": "очищенные креветки"
+        },
+        {
+          "name": "сливки",
+          "amount": "200 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "чеснок",
+          "amount": "3 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "пармезан",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "лимон",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 55
+          },
+          "estimated_cost_rub": 28,
+          "pricing_key": "лимон"
+        }
+      ],
+      "total_price": 689,
+      "image": "images/dishes/19_pasta_s_krevetkami_v_slivochno_chesnochnom_souse.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Креветки в сливочно-чесночном соусе с картошкой",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Нарежьте картофель дольками, смажьте маслом, приправьте и запекайте при 200 °C 30–40 минут до мягкости.",
+        "2. Креветки очистите и обсушите. Сырые креветки быстро обжарьте до непрозрачности и переложите на тарелку.",
+        "3. Прогрейте измельчённый чеснок на сковороде, влейте сливки и вмешайте пармезан.",
+        "4. Верните креветки в соус и прогрейте минуту; варёные креветки добавляйте сразу в готовый соус. Снимите с огня, добавьте немного лимонного сока.",
+        "5. Подавайте креветки с запечённым картофелем."
+      ],
+      "ingredients": [
+        {
+          "name": "креветки",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1450
+          },
+          "estimated_cost_rub": 507,
+          "pricing_key": "креветки"
+        },
+        {
+          "name": "картофель",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "чеснок",
+          "amount": "3 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "лимон",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 55
+          },
+          "estimated_cost_rub": 28,
+          "pricing_key": "лимон"
+        }
+      ],
+      "total_price": 743,
+      "image": "images/dishes/20_krevetki_v_slivochno_chesnochnom_souse_s_kartoshkoy.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Кальмары в сливочном соусе с чесноком",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 25,
+        "max": 35
+      },
+      "recipe": [
+        "1. Очистите кальмаров, удалите плёнки, промойте, обсушите и нарежьте кольцами.",
+        "2. Мелко нарежьте лук и чеснок. Обжарьте лук до мягкости, добавьте чеснок и прогрейте минуту.",
+        "3. Влейте сливки, добавьте пармезан и прогрейте соус на слабом огне.",
+        "4. Добавьте кальмаров и готовьте 2–3 минуты, до непрозрачности, не передерживая.",
+        "5. Подавайте сразу. По желанию отдельно приготовьте пасту или картофель на гарнир."
+      ],
+      "ingredients": [
+        {
+          "name": "кальмары очищенные",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 440,
+          "pricing_key": "кальмары очищенные"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "чеснок",
+          "amount": "3 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "лук",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "паста/картофель на гарнир",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 35
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "паста/картофель на гарнир"
+        }
+      ],
+      "total_price": 659,
+      "image": "images/dishes/21_kalmary_v_slivochnom_souse_s_chesnokom.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Грибной крем-суп",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 35,
+        "max": 40
+      },
+      "recipe": [
+        "1. Нарежьте лук, картофель и шампиньоны. Обжарьте лук с грибами на сливочном масле.",
+        "2. Добавьте картофель и бульон. Варите 15–20 минут до мягкости картофеля.",
+        "3. Снимите с огня и измельчите суп погружным блендером до однородной консистенции.",
+        "4. Влейте сливки, приправьте и прогрейте на слабом огне, не доводя до бурного кипения."
+      ],
+      "ingredients": [
+        {
+          "name": "шампиньоны",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 180,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "картофель",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "сливки",
+          "amount": "200 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "бульон",
+          "amount": "500 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 60,
+          "pricing_key": "бульон"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "30 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 414,
+      "image": "images/dishes/22_gribnoy_krem_sup.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Сырный суп с курицей",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Нарежьте курицу и картофель кубиками. Лук мелко нарежьте, морковь натрите.",
+        "2. Залейте курицу примерно литром воды, доведите до кипения и снимите пену.",
+        "3. Добавьте картофель. Отдельно слегка обжарьте лук с морковью и переложите в кастрюлю.",
+        "4. Варите до готовности курицы и мягкости картофеля, около 20 минут. Добавьте плавленый сыр и размешайте до растворения.",
+        "5. Влейте сливки, приправьте и прогрейте ещё пару минут."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 165,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "картофель",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 20,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "плавленый сыр",
+          "amount": "200 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 130,
+          "pricing_key": "плавленый сыр"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "сливки",
+          "amount": "100 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 60,
+          "pricing_key": "сливки"
+        }
+      ],
+      "total_price": 408,
+      "image": "images/dishes/23_syrnyy_sup_s_kuricey.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Суп с фрикадельками",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Смешайте фарш с половиной мелко нарезанного лука, посолите и сформируйте небольшие фрикадельки.",
+        "2. Доведите бульон до кипения, добавьте нарезанный картофель. Если используете рис, промойте и добавьте его на этом этапе.",
+        "3. Обжарьте оставшийся лук с морковью и добавьте в суп вместе с фрикадельками.",
+        "4. Варите на небольшом огне около 15 минут до полной готовности фрикаделек. Если используете мелкую пасту, добавьте её за время, указанное на упаковке, до конца варки.",
+        "5. Приправьте по вкусу и дайте супу постоять под крышкой несколько минут."
+      ],
+      "ingredients": [
+        {
+          "name": "фарш",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 195,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "картофель",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 20,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "мелкая паста/рис",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 12,
+          "pricing_key": "мелкая паста/рис"
+        },
+        {
+          "name": "бульон",
+          "amount": "1.2 л",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 144,
+          "pricing_key": "бульон"
+        }
+      ],
+      "total_price": 404,
+      "image": "images/dishes/24_sup_s_frikadelkami.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Паста с лососем в сливочном соусе",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Отварите пасту по инструкции на упаковке, сохранив немного воды от варки.",
+        "2. Нарежьте лосось кубиками, удалив кожу и кости. Быстро обжарьте с измельчённым чесноком.",
+        "3. Влейте сливки и готовьте на слабом огне до готовности рыбы, около 5–7 минут в зависимости от размера кусочков.",
+        "4. Добавьте пасту и пармезан, перемешайте. Снимите с огня и добавьте немного лимонного сока."
+      ],
+      "ingredients": [
+        {
+          "name": "паста",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "паста"
+        },
+        {
+          "name": "филе лосося",
+          "amount": "275 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1800
+          },
+          "estimated_cost_rub": 495,
+          "pricing_key": "филе лосося"
+        },
+        {
+          "name": "сливки",
+          "amount": "200 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "лимон",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 55
+          },
+          "estimated_cost_rub": 28,
+          "pricing_key": "лимон"
+        }
+      ],
+      "total_price": 722,
+      "image": "images/dishes/25_pasta_s_lososem_v_slivochnom_souse.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Котлеты, пюре и подливка",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 50,
+        "max": 60
+      },
+      "recipe": [
+        "1. Отварите очищенный картофель до мягкости. Слейте воду и разомните с тёплым молоком и сливочным маслом.",
+        "2. Смешайте фарш с измельчённым луком, яйцом, солью и перцем. Сформируйте котлеты.",
+        "3. Обжарьте котлеты с двух сторон до корочки. Добавьте немного воды и доведите до полной готовности под крышкой.",
+        "4. Вмешайте сливки или сметану в оставшийся на сковороде сок, прогрейте до однородной подливки.",
+        "5. Подавайте котлеты с пюре и подливкой."
+      ],
+      "ingredients": [
+        {
+          "name": "фарш",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "яйцо",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 9,
+          "pricing_key": "яйцо"
+        },
+        {
+          "name": "молоко",
+          "amount": "150 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "молоко"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "сливки/сметана",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 420
+          },
+          "estimated_cost_rub": 50,
+          "pricing_key": "сливки/сметана"
+        }
+      ],
+      "total_price": 419,
+      "image": "images/dishes/26_kotlety_pyure_i_podlivka.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Тефтели с гречкой",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 55
+      },
+      "recipe": [
+        "1. Промойте гречку, залейте водой в пропорции 1:2 и варите под крышкой 15–20 минут до готовности.",
+        "2. Смешайте фарш с мелко нарезанным луком и яйцом, приправьте и сформируйте тефтели.",
+        "3. Обжарьте тефтели с двух сторон. Разведите томатную пасту и сметану примерно 150 мл воды и влейте в сковороду.",
+        "4. Тушите под крышкой 15–20 минут до полной готовности мяса. Подавайте с гречкой."
+      ],
+      "ingredients": [
+        {
+          "name": "фарш",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "гречка",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 170
+          },
+          "estimated_cost_rub": 31,
+          "pricing_key": "гречка"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "яйцо",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 9,
+          "pricing_key": "яйцо"
+        },
+        {
+          "name": "томатная паста",
+          "amount": "1 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 12
+          },
+          "estimated_cost_rub": 12,
+          "pricing_key": "томатная паста"
+        },
+        {
+          "name": "сметана",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 36,
+          "pricing_key": "сметана"
+        }
+      ],
+      "total_price": 363,
+      "image": "images/dishes/27_tefteli_s_grechkoy.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Тефтели с пюре и сливочной подливкой",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 50,
+        "max": 60
+      },
+      "recipe": [
+        "1. Отварите картофель до мягкости, слейте воду и разомните с тёплым молоком и сливочным маслом.",
+        "2. Смешайте фарш с мелко нарезанным луком и яйцом. Приправьте и сформируйте тефтели.",
+        "3. Обжарьте тефтели со всех сторон, добавьте немного воды и тушите под крышкой 15–20 минут до полной готовности.",
+        "4. Влейте сливки, прогрейте ещё 3–5 минут на небольшом огне. Подавайте тефтели с пюре и сливочной подливкой."
+      ],
+      "ingredients": [
+        {
+          "name": "фарш",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "яйцо",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 9,
+          "pricing_key": "яйцо"
+        },
+        {
+          "name": "молоко",
+          "amount": "120 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 14,
+          "pricing_key": "молоко"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 473,
+      "image": "images/dishes/28_tefteli_s_pyure_i_slivochnoy_podlivkoy.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Гуляш с пюре",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 90,
+        "max": 120
+      },
+      "recipe": [
+        "1. Нарежьте говядину небольшими кусочками и обжарьте до румяной корочки.",
+        "2. Добавьте нарезанные лук и морковь, обжаривайте ещё 5 минут. Вмешайте томатную пасту.",
+        "3. Влейте горячую воду почти до уровня мяса, накройте и тушите 60–90 минут до мягкости, при необходимости подливая воду.",
+        "4. Отварите картофель, слейте воду и разомните с тёплым молоком.",
+        "5. Добавьте сметану к мясу, прогрейте соус и подавайте гуляш с пюре."
+      ],
+      "ingredients": [
+        {
+          "name": "говядина",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 900
+          },
+          "estimated_cost_rub": 405,
+          "pricing_key": "говядина"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "томатная паста",
+          "amount": "1 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 12
+          },
+          "estimated_cost_rub": 12,
+          "pricing_key": "томатная паста"
+        },
+        {
+          "name": "сметана",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "молоко",
+          "amount": "120 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 14,
+          "pricing_key": "молоко"
+        }
+      ],
+      "total_price": 529,
+      "image": "images/dishes/29_gulyash_s_pyure.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Куриные ножки с пюре",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 55,
+        "max": 65
+      },
+      "recipe": [
+        "1. Натрите голени солью, перцем, паприкой и измельчённым чесноком, слегка смажьте маслом.",
+        "2. Запекайте при 190 °C около 40–50 минут до полной готовности. Температура мяса у кости должна достигнуть 74 °C.",
+        "3. Пока курица запекается, отварите очищенный картофель до мягкости.",
+        "4. Слейте воду, добавьте тёплое молоко и сливочное масло, разомните в пюре. Подавайте с голенями."
+      ],
+      "ingredients": [
+        {
+          "name": "куриные голени",
+          "amount": "6 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 60
+          },
+          "estimated_cost_rub": 360,
+          "pricing_key": "куриные голени"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "молоко",
+          "amount": "150 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "молоко"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "паприка",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 5
+          },
+          "estimated_cost_rub": 5,
+          "pricing_key": "паприка"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 466,
+      "image": "images/dishes/30_kurinye_nozhki_s_pyure.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Курица в сырной корочке с картошкой",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 45,
+        "max": 55
+      },
+      "recipe": [
+        "1. Нарежьте картофель дольками, приправьте, смажьте маслом и отправьте в духовку при 200 °C на 15 минут.",
+        "2. Куриное филе разрежьте на порционные пласты. Смешайте сметану с измельчённым чесноком.",
+        "3. Смажьте курицу сметаной и посыпьте смесью тёртого сыра и сухарей.",
+        "4. Выложите рядом с картофелем и запекайте ещё 20–25 минут до полной готовности курицы и мягкости картофеля."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 220,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "картофель",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сыр",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 128,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "сметана",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 36,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "панировочные сухари",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 250
+          },
+          "estimated_cost_rub": 12,
+          "pricing_key": "панировочные сухари"
+        }
+      ],
+      "total_price": 444,
+      "image": "images/dishes/31_kurica_v_syrnoy_korochke_s_kartoshkoy.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Хрустящие куриные стрипсы с картошкой",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 50
+      },
+      "recipe": [
+        "1. Нарежьте картофель дольками, смажьте маслом и запекайте при 200 °C 30–40 минут.",
+        "2. Нарежьте куриное филе полосками, посолите и поперчите.",
+        "3. Каждую полоску обваляйте в муке, затем во взбитых яйцах и сухарях или измельчённых хлопьях.",
+        "4. Обжарьте стрипсы на среднем огне до золотистой корочки и полной готовности внутри; толстые кусочки дополнительно доведите в духовке.",
+        "5. Подавайте с картофелем и соусом."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 248,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "картофель",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "яйца",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "панировочные сухари/кукурузные хлопья",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 280
+          },
+          "estimated_cost_rub": 34,
+          "pricing_key": "панировочные сухари/кукурузные хлопья"
+        },
+        {
+          "name": "мука",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 4,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "соус",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 45
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "соус"
+        }
+      ],
+      "total_price": 381,
+      "image": "images/dishes/32_hrustyaschie_kurinye_stripsy_s_kartoshkoy.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Куриные крылышки и запеченная картошка",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 55,
+        "max": 65
+      },
+      "recipe": [
+        "1. Смешайте мёд, измельчённый чеснок, паприку, соль и немного масла. Натрите смесью крылышки.",
+        "2. Картофель нарежьте дольками, приправьте и смажьте маслом.",
+        "3. Разложите крылышки и картофель на противне одним слоем. Запекайте при 190 °C 40–50 минут, перевернув в середине приготовления.",
+        "4. Проверьте готовность курицы и мягкость картофеля. Подавайте с выбранным соусом."
+      ],
+      "ingredients": [
+        {
+          "name": "крылышки",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 360
+          },
+          "estimated_cost_rub": 252,
+          "pricing_key": "крылышки"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "паприка",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 5
+          },
+          "estimated_cost_rub": 5,
+          "pricing_key": "паприка"
+        },
+        {
+          "name": "мед",
+          "amount": "1 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "мед"
+        },
+        {
+          "name": "соус",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 45
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "соус"
+        }
+      ],
+      "total_price": 371,
+      "image": "images/dishes/33_kurinye_krylyshki_i_zapechennaya_kartoshka.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Картофельная запеканка с фаршем и сыром",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 65,
+        "max": 75
+      },
+      "recipe": [
+        "1. Отварите картофель до мягкости, слейте воду и разомните. Немного остудите и вмешайте яйца.",
+        "2. Обжарьте мелко нарезанный лук и фарш, разбивая комочки, до готовности.",
+        "3. В смазанную форму выложите половину картофеля, фарш, часть сыра и оставшийся картофель.",
+        "4. Смажьте сметаной, посыпьте оставшимся сыром и запекайте при 180 °C около 25–30 минут до румяной корочки."
+      ],
+      "ingredients": [
+        {
+          "name": "картофель",
+          "amount": "750 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 38,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "фарш",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "сыр",
+          "amount": "170 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 144,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "сметана",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "яйца",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "яйца"
+        }
+      ],
+      "total_price": 520,
+      "image": "images/dishes/34_kartofelnaya_zapekanka_s_farshem_i_syrom.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Запеканка из курицы, картошки и сыра",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 60,
+        "max": 70
+      },
+      "recipe": [
+        "1. Разогрейте духовку до 180 °C. Картофель нарежьте тонкими ломтиками, курицу — небольшими кусочками, лук — полукольцами.",
+        "2. Смешайте сметану с чесноком, солью, перцем и небольшим количеством воды, чтобы получилась заливка.",
+        "3. Выложите картофель, курицу и лук в форму, залейте сметанной смесью и накройте фольгой.",
+        "4. Запекайте 40–50 минут до мягкости картофеля и полной готовности курицы.",
+        "5. Снимите фольгу, посыпьте сыром и подрумяньте ещё 10 минут."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 220,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "картофель",
+          "amount": "750 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 38,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сыр",
+          "amount": "170 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 144,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "сметана",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 470,
+      "image": "images/dishes/35_zapekanka_iz_kuricy_kartoshki_i_syra.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Плов",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 90,
+        "max": 120
+      },
+      "recipe": [
+        "1. Промойте рис до прозрачной воды. Мясо нарежьте кусочками, морковь — соломкой, лук — полукольцами.",
+        "2. В казане или толстостенной кастрюле обжарьте мясо, затем добавьте лук и морковь.",
+        "3. Добавьте зиру, соль и горячую воду до уровня мяса. Тушите под крышкой до мягкости мяса, около 40–60 минут.",
+        "4. Разровняйте сверху рис, положите головку чеснока и долейте горячую воду примерно на 1 см выше риса.",
+        "5. Готовьте до впитывания воды, затем накройте крышкой и томите на слабом огне 15–20 минут. Дайте постоять 10 минут и перемешайте."
+      ],
+      "ingredients": [
+        {
+          "name": "рис",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 160
+          },
+          "estimated_cost_rub": 40,
+          "pricing_key": "рис"
+        },
+        {
+          "name": "говядина/свинина",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 750
+          },
+          "estimated_cost_rub": 338,
+          "pricing_key": "говядина/свинина"
+        },
+        {
+          "name": "морковь",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 36,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "лук",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 головка",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "зира/приправа для плова",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 10
+          },
+          "estimated_cost_rub": 10,
+          "pricing_key": "зира/приправа для плова"
+        }
+      ],
+      "total_price": 470,
+      "image": "images/dishes/36_plov.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Рис с курицей в соусе",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 35,
+        "max": 40
+      },
+      "recipe": [
+        "1. Промойте рис и отварите по инструкции на упаковке.",
+        "2. Нарежьте курицу кусочками, лук мелко. Обжарьте лук до мягкости, затем добавьте курицу и доведите до готовности.",
+        "3. Добавьте чеснок, влейте сливки или сметану с небольшим количеством воды. Прогрейте 5 минут.",
+        "4. Вмешайте тёртый сыр до расплавления. Подавайте курицу с соусом поверх риса."
+      ],
+      "ingredients": [
+        {
+          "name": "рис",
+          "amount": "200 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 160
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "рис"
+        },
+        {
+          "name": "куриное филе",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 220,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "сливки/сметана",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 420
+          },
+          "estimated_cost_rub": 76,
+          "pricing_key": "сливки/сметана"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "сыр",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 42,
+          "pricing_key": "сыр"
+        }
+      ],
+      "total_price": 393,
+      "image": "images/dishes/37_ris_s_kuricey_v_souse.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Макароны по-флотски",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Отварите макароны по инструкции на упаковке и слейте воду.",
+        "2. Обжарьте мелко нарезанный лук на сливочном масле до мягкости.",
+        "3. Добавьте фарш, разбивайте комочки лопаткой и жарьте до полной готовности. Вмешайте томатную пасту и пару ложек воды.",
+        "4. Смешайте макароны с фаршем и прогрейте 2–3 минуты."
+      ],
+      "ingredients": [
+        {
+          "name": "макароны",
+          "amount": "220 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 130
+          },
+          "estimated_cost_rub": 29,
+          "pricing_key": "макароны"
+        },
+        {
+          "name": "фарш",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "томатная паста",
+          "amount": "1 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 12
+          },
+          "estimated_cost_rub": 12,
+          "pricing_key": "томатная паста"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "20 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 332,
+      "image": "images/dishes/38_makarony_po_flotski.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Болоньезе",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 55
+      },
+      "recipe": [
+        "1. Обжарьте мелко нарезанные лук и морковь до мягкости.",
+        "2. Добавьте фарш, разбейте комочки и обжарьте. Влейте протёртые томаты, приправьте и тушите 25–30 минут.",
+        "3. Отварите спагетти по инструкции на упаковке, сохранив немного воды от варки.",
+        "4. Смешайте спагетти с соусом, при необходимости добавьте воду от пасты. Подавайте с тёртым сыром."
+      ],
+      "ingredients": [
+        {
+          "name": "спагетти",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 130
+          },
+          "estimated_cost_rub": 23,
+          "pricing_key": "спагетти"
+        },
+        {
+          "name": "фарш",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 227,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "томаты протертые",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 260
+          },
+          "estimated_cost_rub": 91,
+          "pricing_key": "томаты протертые"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "сыр",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 42,
+          "pricing_key": "сыр"
+        }
+      ],
+      "total_price": 416,
+      "image": "images/dishes/39_boloneze.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Домашняя шаверма с курицей",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 30,
+        "max": 35
+      },
+      "recipe": [
+        "1. Нарежьте курицу и обжарьте до румяной корочки и полной готовности.",
+        "2. Тонко нарежьте капусту, огурец и помидор.",
+        "3. Смешайте сметану и майонез для простого соуса.",
+        "4. Разложите начинку, сыр и соус по лавашу и плотно сверните.",
+        "5. Подрумяньте шаверму на сухой сковороде с двух сторон."
+      ],
+      "ingredients": [
+        {
+          "name": "лаваш",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 70
+          },
+          "estimated_cost_rub": 140,
+          "pricing_key": "лаваш"
+        },
+        {
+          "name": "куриное бедро/филе",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 520
+          },
+          "estimated_cost_rub": 208,
+          "pricing_key": "куриное бедро/филе"
+        },
+        {
+          "name": "капуста",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 70
+          },
+          "estimated_cost_rub": 10,
+          "pricing_key": "капуста"
+        },
+        {
+          "name": "огурец",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 45
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "огурец"
+        },
+        {
+          "name": "помидор",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 45
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "помидор"
+        },
+        {
+          "name": "сыр",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 85,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "сметана",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "майонез",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 350
+          },
+          "estimated_cost_rub": 21,
+          "pricing_key": "майонез"
+        }
+      ],
+      "total_price": 578,
+      "image": "images/dishes/40_domashnyaya_shaverma_s_kuricey.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Домашняя мясная пицца",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 60
+      },
+      "recipe": [
+        "1. Обжарьте фарш или мелко нарезанную курицу до полной готовности. Нарежьте лук и колбасу.",
+        "2. Разогрейте духовку до 230 °C. Раскатайте готовое тесто и перенесите на противень.",
+        "3. Смажьте томатным соусом, распределите мясо, лук, колбасу и моцареллу.",
+        "4. Выпекайте 12–18 минут до готовности теста и румяной корочки; ориентируйтесь на толщину основы.",
+        "5. Дайте постоять пару минут и нарежьте."
+      ],
+      "ingredients": [
+        {
+          "name": "тесто для пиццы",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "тесто для пиццы"
+        },
+        {
+          "name": "фарш/курица",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 180,
+          "pricing_key": "фарш/курица"
+        },
+        {
+          "name": "моцарелла",
+          "amount": "200 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 220,
+          "pricing_key": "моцарелла"
+        },
+        {
+          "name": "томатный соус",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "томатный соус"
+        },
+        {
+          "name": "лук",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "колбаса",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 750
+          },
+          "estimated_cost_rub": 75,
+          "pricing_key": "колбаса"
+        }
+      ],
+      "total_price": 648,
+      "image": "images/dishes/41_domashnyaya_myasnaya_picca.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Блины с мясом",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 60
+      },
+      "recipe": [
+        "1. Обжарьте мелко нарезанный лук. Добавьте фарш и готовьте, разбивая комочки, до полной готовности.",
+        "2. Немного остудите начинку и смешайте с тёртым сыром.",
+        "3. Разложите начинку по готовым блинам и сверните конвертиками.",
+        "4. Подрумяньте блины на сковороде с двух сторон и подавайте со сметаной."
+      ],
+      "ingredients": [
+        {
+          "name": "готовые блины",
+          "amount": "8 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 25
+          },
+          "estimated_cost_rub": 200,
+          "pricing_key": "готовые блины"
+        },
+        {
+          "name": "фарш",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 227,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "сметана",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "сыр",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 68,
+          "pricing_key": "сыр"
+        }
+      ],
+      "total_price": 540,
+      "image": "images/dishes/42_bliny_s_myasom.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Пельмени со сметаной",
+      "portions": 2,
+      "difficulty": "Очень легко",
+      "time": {
+        "min": 15,
+        "max": 20
+      },
+      "recipe": [
+        "1. Вскипятите подсоленную воду.",
+        "2. Опустите пельмени и аккуратно перемешайте, чтобы они не прилипли.",
+        "3. После всплытия варите до полной готовности по инструкции на упаковке.",
+        "4. Слейте воду и добавьте сливочное масло.",
+        "5. Подавайте со сметаной и зеленью."
+      ],
+      "ingredients": [
+        {
+          "name": "пельмени",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 450
+          },
+          "estimated_cost_rub": 292,
+          "pricing_key": "пельмени"
+        },
+        {
+          "name": "сметана",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 54,
+          "pricing_key": "сметана"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "30 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "зелень",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "пучок",
+            "price_rub": 90
+          },
+          "estimated_cost_rub": 22,
+          "pricing_key": "зелень"
+        }
+      ],
+      "total_price": 392,
+      "image": "images/dishes/43_pelmeni_so_smetanoy.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Мясные зразы с сыром",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 55
+      },
+      "recipe": [
+        "1. Смешайте фарш с измельчённым луком, яйцом, солью и перцем. Сыр нарежьте брусочками.",
+        "2. Сформируйте из фарша лепёшки, положите в центр сыр и тщательно закройте края.",
+        "3. Обваляйте зразы в сухарях и обжарьте с двух сторон до корочки.",
+        "4. Доведите до полной готовности в духовке при 180 °C около 15–20 минут, в зависимости от размера.",
+        "5. При желании подавайте с отдельно приготовленным картофелем или гречкой."
+      ],
+      "ingredients": [
+        {
+          "name": "фарш",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 292,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "сыр",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 102,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "яйцо",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 9,
+          "pricing_key": "яйцо"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "панировочные сухари",
+          "amount": "70 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 250
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "панировочные сухари"
+        },
+        {
+          "name": "картофель/гречка на гарнир",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 40
+          },
+          "estimated_cost_rub": 40,
+          "pricing_key": "картофель/гречка на гарнир"
+        }
+      ],
+      "total_price": 476,
+      "image": "images/dishes/44_myasnye_zrazy_s_syrom.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Куриный шницель с пюре",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 45,
+        "max": 55
+      },
+      "recipe": [
+        "1. Отварите картофель до мягкости, слейте воду и разомните с тёплым молоком и сливочным маслом.",
+        "2. Куриное филе разрежьте на пласты и слегка отбейте до равномерной толщины.",
+        "3. Приправьте курицу, обваляйте в муке, затем во взбитом яйце и сухарях.",
+        "4. Обжарьте шницели на среднем огне с двух сторон до золотистой корочки и полной готовности мяса. Подавайте с пюре."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 248,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "яйца",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "мука",
+          "amount": "70 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 4,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "сухари",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 250
+          },
+          "estimated_cost_rub": 25,
+          "pricing_key": "сухари"
+        },
+        {
+          "name": "молоко",
+          "amount": "150 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "молоко"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 380,
+      "image": "images/dishes/45_kurinyy_shnicel_s_pyure.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Фрикадельки в томатно-сырном соусе",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 50
+      },
+      "recipe": [
+        "1. Смешайте фарш с половиной мелко нарезанного лука, солью и перцем. Сформируйте небольшие фрикадельки.",
+        "2. Обжарьте фрикадельки до корочки и переложите на тарелку.",
+        "3. На той же сковороде обжарьте оставшийся лук с чесноком. Добавьте протёртые томаты и немного воды.",
+        "4. Верните фрикадельки в соус и тушите под крышкой 15–20 минут до полной готовности.",
+        "5. Добавьте моцареллу и прогрейте до расплавления. По желанию подавайте с пастой или картофелем."
+      ],
+      "ingredients": [
+        {
+          "name": "фарш",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "томаты протертые",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 260
+          },
+          "estimated_cost_rub": 91,
+          "pricing_key": "томаты протертые"
+        },
+        {
+          "name": "моцарелла",
+          "amount": "140 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 154,
+          "pricing_key": "моцарелла"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "паста/картофель на гарнир",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 35
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "паста/картофель на гарнир"
+        }
+      ],
+      "total_price": 563,
+      "image": "images/dishes/46_frikadelki_v_tomatno_syrnom_souse.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Борщ",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 90,
+        "max": 120
+      },
+      "recipe": [
+        "1. Залейте говядину примерно 1,5 л воды, доведите до кипения, снимите пену и варите до мягкости около 60–90 минут.",
+        "2. Нарежьте картофель и капусту. Лук мелко нарежьте, морковь и свёклу натрите.",
+        "3. Обжарьте лук с морковью, добавьте свёклу, томатную пасту и немного бульона. Тушите 10–15 минут.",
+        "4. Достаньте мясо и нарежьте. В бульон добавьте картофель и капусту, варите 15 минут.",
+        "5. Добавьте тушёные овощи и мясо, доведите до мягкости всех овощей. Приправьте, дайте настояться и подавайте со сметаной."
+      ],
+      "ingredients": [
+        {
+          "name": "говядина",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 900
+          },
+          "estimated_cost_rub": 315,
+          "pricing_key": "говядина"
+        },
+        {
+          "name": "свекла",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 25
+          },
+          "estimated_cost_rub": 50,
+          "pricing_key": "свекла"
+        },
+        {
+          "name": "капуста",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 70
+          },
+          "estimated_cost_rub": 21,
+          "pricing_key": "капуста"
+        },
+        {
+          "name": "картофель",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "томатная паста",
+          "amount": "2 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 12
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "томатная паста"
+        },
+        {
+          "name": "сметана",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "сметана"
+        }
+      ],
+      "total_price": 491,
+      "image": "images/dishes/47_borsch.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Гороховый суп с мясом",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 75,
+        "max": 100
+      },
+      "recipe": [
+        "1. Промойте колотый горох. Если на упаковке рекомендовано замачивание, замочите заранее.",
+        "2. Залейте мясо примерно 1,5 л воды, доведите до кипения и снимите пену. Варите вместе с горохом до почти полной мягкости; время зависит от вида мяса и гороха.",
+        "3. Добавьте нарезанный картофель. Мелко нарезанный лук и морковь обжарьте и переложите в суп.",
+        "4. Добавьте лавровый лист и варите ещё 15–20 минут до мягкости картофеля и гороха. Достаньте мясо, нарежьте и верните в суп.",
+        "5. Приправьте по вкусу, удалите лавровый лист и дайте супу постоять под крышкой."
+      ],
+      "ingredients": [
+        {
+          "name": "колотый горох",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 220
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "колотый горох"
+        },
+        {
+          "name": "мясо",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 750
+          },
+          "estimated_cost_rub": 262,
+          "pricing_key": "мясо"
+        },
+        {
+          "name": "картофель",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "лавровый лист",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 3
+          },
+          "estimated_cost_rub": 3,
+          "pricing_key": "лавровый лист"
+        }
+      ],
+      "total_price": 371,
+      "image": "images/dishes/48_gorohovyy_sup_s_myasom.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Суп с фрикадельками",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Смешайте фарш с половиной мелко нарезанного лука, посолите и сформируйте небольшие фрикадельки.",
+        "2. Доведите бульон до кипения, добавьте нарезанный картофель. Если используете рис, промойте и добавьте его на этом этапе.",
+        "3. Обжарьте оставшийся лук с морковью и добавьте в суп вместе с фрикадельками.",
+        "4. Варите на небольшом огне около 15 минут до полной готовности фрикаделек. Если используете мелкую пасту, добавьте её за время, указанное на упаковке, до конца варки.",
+        "5. Приправьте по вкусу и дайте супу постоять под крышкой несколько минут."
+      ],
+      "ingredients": [
+        {
+          "name": "фарш",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 195,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "картофель",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 20,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "мелкая паста/рис",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 12,
+          "pricing_key": "мелкая паста/рис"
+        },
+        {
+          "name": "бульон",
+          "amount": "1.2 л",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 144,
+          "pricing_key": "бульон"
+        }
+      ],
+      "total_price": 404,
+      "image": "images/dishes/49_sup_s_frikadelkami.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Говядина Веллингтон с перечным соусом",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 110,
+        "max": 140
+      },
+      "recipe": [
+        "1. Обжарьте вырезку целиком до румяной корочки, остудите и смажьте горчицей.",
+        "2. Мелко порубите шампиньоны и выпарите влагу на сковороде; полностью остудите.",
+        "3. Разложите прошутто, сверху грибную массу и мясо, плотно сверните и охладите.",
+        "4. Заверните заготовку в слоёное тесто, смажьте яйцом и запекайте до румяной корочки и нужной прожарки мяса.",
+        "5. Для соуса прогрейте сливки с перцем, посолите и подайте рядом с нарезанным Веллингтоном."
+      ],
+      "ingredients": [
+        {
+          "name": "говяжья вырезка",
+          "amount": "500 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1900
+          },
+          "estimated_cost_rub": 950,
+          "pricing_key": "говяжья вырезка"
+        },
+        {
+          "name": "слоеное тесто",
+          "amount": "400 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 450
+          },
+          "estimated_cost_rub": 180,
+          "pricing_key": "слоеное тесто"
+        },
+        {
+          "name": "прошутто",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 2600
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "прошутто"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 140,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "горчица",
+          "amount": "2 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 10
+          },
+          "estimated_cost_rub": 20,
+          "pricing_key": "горчица"
+        },
+        {
+          "name": "яйцо",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 9,
+          "pricing_key": "яйцо"
+        },
+        {
+          "name": "сливки",
+          "amount": "150 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 90,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "зеленый перец/черный перец",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "порция",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "зеленый перец/черный перец"
+        }
+      ],
+      "total_price": 1657,
+      "image": "images/dishes/50_govyadina_vellington_s_perechnym_sousom.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Chicken Supreme с картофельным гратеном",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 75,
+        "max": 90
+      },
+      "recipe": [
+        "1. Картофель нарежьте тонкими ломтиками, смешайте со сливками, чесноком и частью сыра.",
+        "2. Выложите картофель слоями в форму и запекайте до мягкости и золотистой корочки.",
+        "3. Куриную грудку обсушите, приправьте и обжарьте кожей вниз до хруста.",
+        "4. Доведите курицу до готовности в духовке со сливочным маслом и тимьяном.",
+        "5. Дайте мясу отдохнуть несколько минут и подавайте с гратеном."
+      ],
+      "ingredients": [
+        {
+          "name": "куриная грудка на коже",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 180
+          },
+          "estimated_cost_rub": 360,
+          "pricing_key": "куриная грудка на коже"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сливки",
+          "amount": "300 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 180,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "сыр",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 102,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "тимьян",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "пучок",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "тимьян"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 755,
+      "image": "images/dishes/51_chicken_supreme_s_kartofelnym_gratenom.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Медальоны из индейки с грибным кремом и пармезановым пюре",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 50,
+        "max": 60
+      },
+      "recipe": [
+        "1. Отварите картофель до мягкости. Слейте воду и разомните со сливочным маслом, частью сливок и пармезаном.",
+        "2. Нарежьте индейку поперёк волокон медальонами, приправьте и обжарьте с двух сторон.",
+        "3. Переложите индейку на тарелку. На той же сковороде обжарьте нарезанные шампиньоны до испарения жидкости.",
+        "4. Влейте оставшиеся сливки и верните индейку. Готовьте на небольшом огне до полной готовности мяса.",
+        "5. Подавайте медальоны с пармезановым пюре и грибным соусом."
+      ],
+      "ingredients": [
+        {
+          "name": "филе индейки",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 760
+          },
+          "estimated_cost_rub": 342,
+          "pricing_key": "филе индейки"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "сливки",
+          "amount": "220 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 132,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "картофель",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "пармезан",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 66,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 724,
+      "image": "images/dishes/52_medalony_iz_indeyki_s_gribnym_kremom_i_parmezanovym_pyure.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Лосось с шелковым пюре и лимонным сливочным соусом",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 50
+      },
+      "recipe": [
+        "1. Отварите картофель до мягкости, слейте воду и разомните с половиной сливочного масла и частью сливок.",
+        "2. Лосось обсушите, удалите кости и приправьте. Обжарьте с обеих сторон до готовности; время зависит от толщины филе.",
+        "3. Переложите рыбу на тарелку. На слабом огне прогрейте оставшиеся сливки и масло в сковороде.",
+        "4. Добавьте цедру лимона и укроп. Снимите с огня и добавьте лимонный сок по вкусу.",
+        "5. Подавайте лосось с пюре, полив лимонным сливочным соусом."
+      ],
+      "ingredients": [
+        {
+          "name": "филе лосося",
+          "amount": "375 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1800
+          },
+          "estimated_cost_rub": 675,
+          "pricing_key": "филе лосося"
+        },
+        {
+          "name": "картофель",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 48,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "лимон",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 55
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "лимон"
+        },
+        {
+          "name": "укроп",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "пучок",
+            "price_rub": 90
+          },
+          "estimated_cost_rub": 22,
+          "pricing_key": "укроп"
+        }
+      ],
+      "total_price": 940,
+      "image": "images/dishes/53_losos_s_shelkovym_pyure_i_limonnym_slivochnym_sousom.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Ризотто с креветками, пармезаном и лимоном",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Подогрейте бульон и держите горячим. Мелко нарежьте лук и обжарьте на части сливочного масла.",
+        "2. Добавьте рис арборио и прогрейте 1–2 минуты, помешивая.",
+        "3. Подливайте горячий бульон по половнику и помешивайте. Следующую порцию добавляйте после впитывания предыдущей. Готовьте рис около 18–22 минут до кремовой консистенции.",
+        "4. Отдельно обжарьте сырые креветки до непрозрачности. Варёные креветки только прогрейте.",
+        "5. Снимите рис с огня, вмешайте оставшееся масло, пармезан, креветки, лимонную цедру и немного лимонного сока. Подавайте сразу."
+      ],
+      "ingredients": [
+        {
+          "name": "рис арборио",
+          "amount": "220 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 500
+          },
+          "estimated_cost_rub": 110,
+          "pricing_key": "рис арборио"
+        },
+        {
+          "name": "креветки",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1450
+          },
+          "estimated_cost_rub": 507,
+          "pricing_key": "креветки"
+        },
+        {
+          "name": "бульон",
+          "amount": "800 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 96,
+          "pricing_key": "бульон"
+        },
+        {
+          "name": "пармезан",
+          "amount": "70 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 77,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 40,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "лимон",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 55
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "лимон"
+        },
+        {
+          "name": "лук шалот/обычный",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 20
+          },
+          "estimated_cost_rub": 20,
+          "pricing_key": "лук шалот/обычный"
+        }
+      ],
+      "total_price": 905,
+      "image": "images/dishes/54_rizotto_s_krevetkami_parmezanom_i_limonom.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Трюфельное грибное ризотто с бурратой",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 40,
+        "max": 45
+      },
+      "recipe": [
+        "1. Подогрейте бульон. Нарежьте шампиньоны и обжарьте до испарения жидкости.",
+        "2. В отдельной сковороде обжарьте мелко нарезанный лук, добавьте рис и прогрейте 1–2 минуты.",
+        "3. Подливайте горячий бульон небольшими порциями, помешивая и дожидаясь впитывания. Готовьте около 18–22 минут.",
+        "4. Вмешайте грибы. Снимите с огня, добавьте пармезан и трюфельное масло.",
+        "5. Разложите ризотто по тарелкам и положите сверху буррату, разделённую на порции."
+      ],
+      "ingredients": [
+        {
+          "name": "рис арборио",
+          "amount": "220 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 500
+          },
+          "estimated_cost_rub": 110,
+          "pricing_key": "рис арборио"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 140,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "бульон",
+          "amount": "800 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 96,
+          "pricing_key": "бульон"
+        },
+        {
+          "name": "пармезан",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 66,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "буррата",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 260
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "буррата"
+        },
+        {
+          "name": "трюфельное масло",
+          "amount": "2 ч. л.",
+          "price_basis": {
+            "unit": "ч. л.",
+            "price_rub": 45
+          },
+          "estimated_cost_rub": 90,
+          "pricing_key": "трюфельное масло"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        }
+      ],
+      "total_price": 777,
+      "image": "images/dishes/55_tryufelnoe_gribnoe_rizotto_s_burratoy.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Ньокки с песто, бурратой и запеченными томатами",
+      "portions": 2,
+      "difficulty": "Легко",
+      "time": {
+        "min": 25,
+        "max": 30
+      },
+      "recipe": [
+        "1. Разогрейте духовку до 200 °C. Черри смешайте с измельчённым чесноком и небольшим количеством масла, запекайте 15–20 минут.",
+        "2. Отварите ньокки по инструкции на упаковке и сохраните немного воды от варки.",
+        "3. Смешайте горячие ньокки с песто, пармезаном и небольшим количеством воды от варки.",
+        "4. Добавьте запечённые томаты, разложите по тарелкам и положите сверху буррату, разделённую на порции."
+      ],
+      "ingredients": [
+        {
+          "name": "ньокки",
+          "amount": "500 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 275,
+          "pricing_key": "ньокки"
+        },
+        {
+          "name": "песто",
+          "amount": "4 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 32
+          },
+          "estimated_cost_rub": 128,
+          "pricing_key": "песто"
+        },
+        {
+          "name": "буррата",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 260
+          },
+          "estimated_cost_rub": 260,
+          "pricing_key": "буррата"
+        },
+        {
+          "name": "черри",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 450
+          },
+          "estimated_cost_rub": 112,
+          "pricing_key": "черри"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "чеснок",
+          "amount": "1 зубчик",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 8,
+          "pricing_key": "чеснок"
+        }
+      ],
+      "total_price": 827,
+      "image": "images/dishes/56_nokki_s_pesto_burratoy_i_zapechennymi_tomatami.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Равиоли с грибами и рикоттой в шалфейном масле",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 75,
+        "max": 95
+      },
+      "recipe": [
+        "1. Обжарьте мелко нарезанные шампиньоны до испарения жидкости и остудите.",
+        "2. Смешайте грибы с рикоттой и частью пармезана.",
+        "3. Разложите начинку между листами свежей пасты, выпустите воздух и хорошо защипните края.",
+        "4. Отварите равиоли в подсоленной воде до готовности.",
+        "5. Растопите сливочное масло с шалфеем, прогрейте в нём равиоли и посыпьте пармезаном."
+      ],
+      "ingredients": [
+        {
+          "name": "готовые листы свежей пасты/тесто",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 700
+          },
+          "estimated_cost_rub": 210,
+          "pricing_key": "готовые листы свежей пасты/тесто"
+        },
+        {
+          "name": "шампиньоны",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 400
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "шампиньоны"
+        },
+        {
+          "name": "рикотта",
+          "amount": "200 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 170,
+          "pricing_key": "рикотта"
+        },
+        {
+          "name": "пармезан",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 64,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "шалфей",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "пучок",
+            "price_rub": 140
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "шалфей"
+        }
+      ],
+      "total_price": 654,
+      "image": "images/dishes/57_ravioli_s_gribami_i_rikottoy_v_shalfeynom_masle.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Лазанья-роллы с бешамелем и пармезаном",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 70,
+        "max": 85
+      },
+      "recipe": [
+        "1. Обжарьте фарш до готовности, добавьте томатный соус и тушите 10–15 минут.",
+        "2. Растопите сливочное масло, вмешайте муку. Постепенно влейте молоко и, помешивая, сварите густой бешамель.",
+        "3. Отварите листы лазаньи до гибкости по инструкции и разложите отдельно, чтобы не слиплись.",
+        "4. На каждый лист положите мясную начинку и немного моцареллы. Сверните рулетики и уложите в форму на тонкий слой бешамеля.",
+        "5. Залейте оставшимся бешамелем, посыпьте пармезаном и моцареллой. Запекайте при 180 °C 25–30 минут до румяной корочки."
+      ],
+      "ingredients": [
+        {
+          "name": "листы лазаньи",
+          "amount": "8 шт.",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 620
+          },
+          "estimated_cost_rub": 124,
+          "pricing_key": "листы лазаньи"
+        },
+        {
+          "name": "фарш",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 650
+          },
+          "estimated_cost_rub": 227,
+          "pricing_key": "фарш"
+        },
+        {
+          "name": "томатный соус",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 90,
+          "pricing_key": "томатный соус"
+        },
+        {
+          "name": "молоко",
+          "amount": "450 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 120
+          },
+          "estimated_cost_rub": 54,
+          "pricing_key": "молоко"
+        },
+        {
+          "name": "мука",
+          "amount": "35 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 2,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "35 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 28,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "моцарелла",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 165,
+          "pricing_key": "моцарелла"
+        },
+        {
+          "name": "пармезан",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 55,
+          "pricing_key": "пармезан"
+        }
+      ],
+      "total_price": 745,
+      "image": "images/dishes/58_lazanya_rolly_s_beshamelem_i_parmezanom.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Аранчини с моцареллой и томатным соусом",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 70,
+        "max": 90
+      },
+      "recipe": [
+        "1. Сварите рис арборио до мягкости, вмешайте пармезан и полностью остудите.",
+        "2. Сформируйте шарики, положив внутрь кусочек моцареллы.",
+        "3. Обваляйте шарики в муке, затем в яйце и сухарях.",
+        "4. Обжарьте до равномерной золотистой корочки или запеките с небольшим количеством масла.",
+        "5. Прогрейте томатный соус и подайте аранчини горячими."
+      ],
+      "ingredients": [
+        {
+          "name": "рис арборио",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 500
+          },
+          "estimated_cost_rub": 125,
+          "pricing_key": "рис арборио"
+        },
+        {
+          "name": "моцарелла",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 165,
+          "pricing_key": "моцарелла"
+        },
+        {
+          "name": "пармезан",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 66,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "яйца",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "сухари",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 250
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "сухари"
+        },
+        {
+          "name": "мука",
+          "amount": "70 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 4,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "томатный соус",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 75,
+          "pricing_key": "томатный соус"
+        }
+      ],
+      "total_price": 483,
+      "image": "images/dishes/59_aranchini_s_mocarelloy_i_tomatnym_sousom.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Котлета по-киевски ресторанной подачи с пюре",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 70,
+        "max": 85
+      },
+      "recipe": [
+        "1. Смешайте мягкое сливочное масло с чесноком и петрушкой, сформируйте брусочки и охладите.",
+        "2. Куриное филе раскройте, отбейте и заверните внутрь холодное ароматное масло.",
+        "3. Запанируйте котлеты в муке, яйце и сухарях; повторите слой яйца и сухарей для плотной корочки.",
+        "4. Обжарьте до золотистого цвета и доведите до готовности в духовке.",
+        "5. Отварите картофель, сделайте пюре и подавайте рядом с котлетой."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 248,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 80,
+          "pricing_key": "сливочное масло"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "петрушка",
+          "amount": "по вкусу / по необходимости",
+          "price_basis": {
+            "unit": "пучок",
+            "price_rub": 90
+          },
+          "estimated_cost_rub": 22,
+          "pricing_key": "петрушка"
+        },
+        {
+          "name": "яйца",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "мука",
+          "amount": "70 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 4,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "сухари",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 250
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "сухари"
+        },
+        {
+          "name": "картофель",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "картофель"
+        }
+      ],
+      "total_price": 450,
+      "image": "images/dishes/60_kotleta_po_kievski_restorannoy_podachi_s_pyure.jpg"
+    },
+    {
+      "id": 61,
+      "name": "Медальоны из говядины с гратеном дофинуа",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 80,
+        "max": 95
+      },
+      "recipe": [
+        "1. Нарежьте картофель очень тонкими ломтиками. Смешайте сливки с измельчённым чесноком, солью и перцем.",
+        "2. Смажьте форму частью сливочного масла, уложите картофель слоями и залейте сливками. Запекайте под фольгой при 180 °C 45–55 минут до мягкости.",
+        "3. Снимите фольгу, посыпьте сыром и запекайте ещё 10–15 минут до корочки.",
+        "4. Нарежьте вырезку медальонами поперёк волокон, обсушите и обжарьте на хорошо разогретой сковороде с обеих сторон до желаемой степени готовности. В конце добавьте оставшееся сливочное масло.",
+        "5. Дайте мясу отдохнуть 5 минут и подавайте с картофельным гратеном."
+      ],
+      "ingredients": [
+        {
+          "name": "говяжья вырезка",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1900
+          },
+          "estimated_cost_rub": 855,
+          "pricing_key": "говяжья вырезка"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сливки",
+          "amount": "300 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 180,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "сыр",
+          "amount": "100 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 85,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 1203,
+      "image": "images/dishes/61_medalony_iz_govyadiny_s_gratenom_dofinua.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Томленая говяжья щека с пюре и густым мясным соусом",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 180,
+        "max": 240
+      },
+      "recipe": [
+        "1. Щёки обсушите и сильно обжарьте до тёмной румяной корочки.",
+        "2. Добавьте лук и морковь, затем томатную пасту и слегка карамелизуйте её.",
+        "3. Влейте бульон, накройте и томите на слабом огне или в духовке до очень мягкого мяса.",
+        "4. Отварите картофель и сделайте гладкое пюре со сливочным маслом.",
+        "5. Соус от тушения процедите или уварите до густоты и подайте со щекой и пюре."
+      ],
+      "ingredients": [
+        {
+          "name": "говяжьи щеки",
+          "amount": "600 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1200
+          },
+          "estimated_cost_rub": 720,
+          "pricing_key": "говяжьи щеки"
+        },
+        {
+          "name": "картофель",
+          "amount": "700 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 35,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "морковь",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 18
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "морковь"
+        },
+        {
+          "name": "лук",
+          "amount": "1 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 15
+          },
+          "estimated_cost_rub": 15,
+          "pricing_key": "лук"
+        },
+        {
+          "name": "говяжий бульон",
+          "amount": "700 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 180
+          },
+          "estimated_cost_rub": 126,
+          "pricing_key": "говяжий бульон"
+        },
+        {
+          "name": "томатная паста",
+          "amount": "1 ст. л.",
+          "price_basis": {
+            "unit": "ст. л.",
+            "price_rub": 12
+          },
+          "estimated_cost_rub": 12,
+          "pricing_key": "томатная паста"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 40,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 966,
+      "image": "images/dishes/62_tomlenaya_govyazhya_scheka_s_pyure_i_gustym_myasnym_sousom.jpg"
+    },
+    {
+      "id": 63,
+      "name": "Хрустящая курица Parmigiana",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 50,
+        "max": 60
+      },
+      "recipe": [
+        "1. Отварите пасту по инструкции. Разогрейте духовку до 190 °C.",
+        "2. Куриное филе разрежьте на пласты, слегка отбейте и приправьте.",
+        "3. Обваляйте курицу в муке, яйцах и сухарях. Обжарьте с двух сторон до золотистой корочки.",
+        "4. В форму выложите часть томатного соуса, затем курицу. Сверху добавьте оставшийся соус, моцареллу и пармезан.",
+        "5. Запекайте 15–20 минут до полной готовности курицы и расплавления сыров. Подавайте с пастой."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 248,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "моцарелла",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 198,
+          "pricing_key": "моцарелла"
+        },
+        {
+          "name": "пармезан",
+          "amount": "60 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 66,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "томатный соус",
+          "amount": "300 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 300
+          },
+          "estimated_cost_rub": 90,
+          "pricing_key": "томатный соус"
+        },
+        {
+          "name": "яйца",
+          "amount": "2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 9
+          },
+          "estimated_cost_rub": 18,
+          "pricing_key": "яйца"
+        },
+        {
+          "name": "сухари",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 250
+          },
+          "estimated_cost_rub": 30,
+          "pricing_key": "сухари"
+        },
+        {
+          "name": "мука",
+          "amount": "70 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 4,
+          "pricing_key": "мука"
+        },
+        {
+          "name": "паста",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 150
+          },
+          "estimated_cost_rub": 27,
+          "pricing_key": "паста"
+        }
+      ],
+      "total_price": 681,
+      "image": "images/dishes/63_hrustyaschaya_kurica_parmigiana.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Куриный рулет со шпинатом и сливочным сыром",
+      "portions": 2,
+      "difficulty": "Сложно",
+      "time": {
+        "min": 65,
+        "max": 80
+      },
+      "recipe": [
+        "1. Куриное филе раскройте пластом и слегка отбейте.",
+        "2. Распределите шпинат, сливочный сыр и обычный сыр, затем сверните плотным рулетом.",
+        "3. Зафиксируйте рулет и обжарьте до лёгкой корочки.",
+        "4. Доведите до готовности в духовке, при необходимости добавив немного сливок.",
+        "5. Дайте рулету отдохнуть и нарежьте; подавайте с картофелем."
+      ],
+      "ingredients": [
+        {
+          "name": "куриное филе",
+          "amount": "500 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 550
+          },
+          "estimated_cost_rub": 275,
+          "pricing_key": "куриное филе"
+        },
+        {
+          "name": "шпинат",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 750
+          },
+          "estimated_cost_rub": 112,
+          "pricing_key": "шпинат"
+        },
+        {
+          "name": "сливочный сыр",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 900
+          },
+          "estimated_cost_rub": 162,
+          "pricing_key": "сливочный сыр"
+        },
+        {
+          "name": "сыр",
+          "amount": "80 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 68,
+          "pricing_key": "сыр"
+        },
+        {
+          "name": "картофель",
+          "amount": "650 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 32,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сливки",
+          "amount": "120 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 72,
+          "pricing_key": "сливки"
+        }
+      ],
+      "total_price": 721,
+      "image": "images/dishes/64_kurinyy_rulet_so_shpinatom_i_slivochnym_syrom.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Черная паста с кальмаром и креветками",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 30,
+        "max": 35
+      },
+      "recipe": [
+        "1. Отварите чёрную пасту, оставив немного воды от варки. Кальмары очистите и нарежьте кольцами, креветки обсушите.",
+        "2. Обжарьте сырые креветки до непрозрачности и переложите на тарелку. Если они уже варёные, пока отложите их.",
+        "3. Прогрейте измельчённый чеснок на сковороде, влейте сливки. Добавьте кальмары и готовьте 2–3 минуты до непрозрачности.",
+        "4. Добавьте креветки, пасту и пармезан. Перемешайте и при необходимости разбавьте водой от пасты.",
+        "5. Снимите с огня и добавьте немного лимонного сока. Подавайте сразу."
+      ],
+      "ingredients": [
+        {
+          "name": "паста с чернилами каракатицы",
+          "amount": "180 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 700
+          },
+          "estimated_cost_rub": 126,
+          "pricing_key": "паста с чернилами каракатицы"
+        },
+        {
+          "name": "кальмары",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 275,
+          "pricing_key": "кальмары"
+        },
+        {
+          "name": "креветки",
+          "amount": "250 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1450
+          },
+          "estimated_cost_rub": 362,
+          "pricing_key": "креветки"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "чеснок",
+          "amount": "3 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 24,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "пармезан",
+          "amount": "40 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1100
+          },
+          "estimated_cost_rub": 44,
+          "pricing_key": "пармезан"
+        },
+        {
+          "name": "лимон",
+          "amount": "1/2 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 55
+          },
+          "estimated_cost_rub": 28,
+          "pricing_key": "лимон"
+        }
+      ],
+      "total_price": 967,
+      "image": "images/dishes/65_chernaya_pasta_s_kalmarom_i_krevetkami.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Стейк-байтс с картофелем Хассельбек и сырным соусом",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 55,
+        "max": 70
+      },
+      "recipe": [
+        "1. Картофель надрежьте частыми тонкими ломтиками, не прорезая до конца, смажьте маслом и запекайте.",
+        "2. Говядину нарежьте крупными кубиками, обсушите и быстро обжарьте на сильном огне.",
+        "3. Добавьте чеснок и немного сливочного масла к мясу и снимите с огня.",
+        "4. Для сырного соуса прогрейте сливки и расплавьте в них чеддер.",
+        "5. Подавайте стейк-байтс с картофелем Хассельбек и сырным соусом."
+      ],
+      "ingredients": [
+        {
+          "name": "говядина",
+          "amount": "450 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 900
+          },
+          "estimated_cost_rub": 405,
+          "pricing_key": "говядина"
+        },
+        {
+          "name": "картофель",
+          "amount": "6 шт.",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 50
+          },
+          "estimated_cost_rub": 45,
+          "pricing_key": "картофель"
+        },
+        {
+          "name": "сыр чеддер",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 1000
+          },
+          "estimated_cost_rub": 120,
+          "pricing_key": "сыр чеддер"
+        },
+        {
+          "name": "сливки",
+          "amount": "160 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 96,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "чеснок",
+          "amount": "2 зубчика",
+          "price_basis": {
+            "unit": "зубчик",
+            "price_rub": 8
+          },
+          "estimated_cost_rub": 16,
+          "pricing_key": "чеснок"
+        },
+        {
+          "name": "сливочное масло",
+          "amount": "50 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 800
+          },
+          "estimated_cost_rub": 40,
+          "pricing_key": "сливочное масло"
+        }
+      ],
+      "total_price": 722,
+      "image": "images/dishes/66_steyk_bayts_s_kartofelem_hasselbek_i_syrnym_sousom.jpg"
+    },
+    {
+      "id": 67,
+      "name": "Каннеллони из блинов с индейкой и шпинатом",
+      "portions": 2,
+      "difficulty": "Средне",
+      "time": {
+        "min": 50,
+        "max": 60
+      },
+      "recipe": [
+        "1. Нарежьте индейку маленькими кусочками и обжарьте до полной готовности.",
+        "2. Добавьте шпинат и прогрейте до мягкости. Снимите с огня и вмешайте сливочный сыр.",
+        "3. Разложите начинку по тонким блинам и сверните трубочками.",
+        "4. Уложите в форму, залейте сливками и посыпьте тёртым сыром.",
+        "5. Запекайте при 180 °C 15–20 минут до золотистой корочки."
+      ],
+      "ingredients": [
+        {
+          "name": "тонкие блины",
+          "amount": "8 шт.",
+          "price_basis": {
+            "unit": "шт",
+            "price_rub": 25
+          },
+          "estimated_cost_rub": 200,
+          "pricing_key": "тонкие блины"
+        },
+        {
+          "name": "индейка",
+          "amount": "350 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 720
+          },
+          "estimated_cost_rub": 252,
+          "pricing_key": "индейка"
+        },
+        {
+          "name": "шпинат",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 750
+          },
+          "estimated_cost_rub": 112,
+          "pricing_key": "шпинат"
+        },
+        {
+          "name": "сливочный сыр",
+          "amount": "150 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 900
+          },
+          "estimated_cost_rub": 135,
+          "pricing_key": "сливочный сыр"
+        },
+        {
+          "name": "сливки",
+          "amount": "180 мл",
+          "price_basis": {
+            "unit": "л",
+            "price_rub": 600
+          },
+          "estimated_cost_rub": 108,
+          "pricing_key": "сливки"
+        },
+        {
+          "name": "сыр",
+          "amount": "120 г",
+          "price_basis": {
+            "unit": "кг",
+            "price_rub": 850
+          },
+          "estimated_cost_rub": 102,
+          "pricing_key": "сыр"
+        }
+      ],
+      "total_price": 909,
+      "image": "images/dishes/67_kannelloni_iz_blinov_s_indeykoy_i_shpinatom.jpg"
+    }
+  ],
+  "pantry_suggestions_from_pdf": {
+    "common": [
+      "картофель",
+      "макароны",
+      "рис",
+      "гречка",
+      "яйца",
+      "лук",
+      "чеснок",
+      "морковь",
+      "томаты протертые",
+      "сметана",
+      "сливки",
+      "молоко",
+      "сливочное масло",
+      "мука",
+      "сыр",
+      "панировочные сухари",
+      "базовые специи"
+    ],
+    "extra_set_1": [
+      "песто",
+      "шампиньоны",
+      "пармезан",
+      "моцарелла",
+      "индейка",
+      "замороженные креветки",
+      "кальмары",
+      "красная рыба",
+      "плавленый сыр",
+      "листы лазаньи"
+    ],
+    "extra_set_2": [
+      "фарш",
+      "куриное филе/бедра/голени",
+      "говядина",
+      "лаваш",
+      "пельмени",
+      "томатный соус",
+      "сыр",
+      "крупы",
+      "картофель",
+      "продукты для подливки"
+    ]
+  }
+}
